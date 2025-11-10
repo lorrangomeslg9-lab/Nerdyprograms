@@ -1,0 +1,85 @@
+
+*{
+		   font-family: "Playwrite AU TAS", cursive;
+}
+  header{
+		  	padding: 20px;
+   text-align: center;
+  		  	border-bottom: 2px solid gray;
+		  }
+		  nav{
+		  	background-color: whitesmoke;
+		  	padding: 20px;
+		  		  	border-bottom: 2px solid gray;
+		  }
+		  button{
+		  	background-color: gray;
+		  		  	border-radius: 5px;
+		  		  	display: flex;
+		  		  	flex-direction: right;
+		  }
+body{
+		  	background-color: whitesmoke;
+		  	color: black;
+		  	transition: background-color 0.3s ease;
+}
+  a:hover{
+  		color: whitesmoke;  	
+  }
+		  a{
+		  		  	color: black;
+		  		   text-decoration: none;
+		  }
+		  header img{
+		  		  	width: 20px;
+		  		  	border-radius: 15px;
+		  		  	margin: 3px;
+		  		  border: 1px solid gray;
+		  }
+
+.playwrite-au-tas-<uniquifier> {
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+		  	.slogan{
+		  	padding: 20px;
+		  		  	border-bottom: 2px solid gray;
+		    }
+	  .product{
+		  	padding: 20px;
+		    display: flex;
+		    align-items: column;
+		    gap: 15px;
+		  		  	border-bottom: 2px solid gray;
+		  }
+  .product img{
+    display: flex;
+    max-width: 100%;
+  }
+		  .delivery{
+		  	padding: 20px;
+		  		  	border-bottom: 2px solid gray;
+		  }
+  .delivery img{
+		  	display: inline-block;
+		  	max-width: 100%;
+  		  	margin: 15px;
+}
+ .dark-mode{
+ 		  	background-color: black;
+ 		  	color: white;
+ }
+		  .dark-mode a{
+		  		   color: white;
+		  }
+address{
+		  	padding: 20px;
+		  		  	border-bottom: 2px solid gray;
+		  }
+		  footer{
+		  	padding: 20px;
+		    text-align: center; 
+		  		  	border-bottom: 2px solid gray;
+		  }
